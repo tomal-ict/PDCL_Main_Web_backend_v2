@@ -2,11 +2,11 @@
   "name": "pdclapiserver",
   "version": "1.0.0",
   "description": "This project is build to run the API server for PDCLweb",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/server.js",
-    "dev": "nodemon ./src/server.js"
+    "dev": "node ./src/server.js",
+    "test": "node ./src/server.js"
   },
   "keywords": [
     "Health",
